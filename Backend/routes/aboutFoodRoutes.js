@@ -1,9 +1,9 @@
-// routes/aboutFoodRoutes.js
+
 const express = require("express");
 const AboutFood = require("../Models/AboutFood");
 const router = express.Router();
 
-// 👉 API to add food details
+
 router.post("/add", async (req, res) => {
   try {
     const { donorName, phoneNumber, address, items } = req.body;
@@ -22,7 +22,7 @@ router.post("/add", async (req, res) => {
   }
 });
 
-// 👉 API to fetch all food details
+
 router.get("/all", async (req, res) => {
   try {
     const foodDetails = await AboutFood.find();
@@ -33,7 +33,6 @@ router.get("/all", async (req, res) => {
   }
 });
 
-// 👉 API to fetch specific food details by ID (Optional)
 router.get("/:id", async (req, res) => {
   try {
     const foodDetail = await AboutFood.findById(req.params.id);
