@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    height: 100vh; /* Keep full height but static */
+    height: 100vh;
     padding: 5px;
     background-color: #f1f1f1;
     border-radius: 12px;
