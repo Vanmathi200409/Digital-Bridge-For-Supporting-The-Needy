@@ -1,4 +1,4 @@
-/* Fullscreen Menu Background with Glassmorphism */
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     position: relative;
 }
 
-/* Adding a subtle dark overlay */
+
 .menu::before {
     content: "";
     position: absolute;
@@ -26,7 +26,7 @@
     backdrop-filter: blur(5px);
 }
 
-/* Button Styles with Glassmorphism and Animation */
+
 .button {
     color: white;
     border: none;
@@ -49,7 +49,7 @@
     border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Hover Effect with Gradient and Ripple Animation */
+
 .button:hover {
     cursor: pointer;
     background: linear-gradient(135deg, rgba(255, 0, 150, 0.6), rgba(0, 204, 255, 0.6));
@@ -59,13 +59,13 @@
     border-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Button Active Effect */
+
 .button:active {
     transform: translateY(2px) scale(0.95);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Ripple Effect */
+
 .button::after {
     content: '';
     position: absolute;
@@ -103,7 +103,7 @@
     animation: fadeIn 1s ease-out;
 }
 
-/* Media Query for Responsiveness */
+
 @media (max-width: 768px) {
     .button {
         width: 150px;
