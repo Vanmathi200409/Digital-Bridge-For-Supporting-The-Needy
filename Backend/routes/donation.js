@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const donateModel = require('../Models/donateModel');
-
-// Route to create a new donation
 router.post('/donate', async (req, res) => {
     try {
         const { donorName, phoneNumber, address, items } = req.body;
@@ -14,7 +12,6 @@ router.post('/donate', async (req, res) => {
     }
 });
 
-// Route to fetch all donations
 router.get('/all', async (req, res) => {
     try {
         const donations = await donateModel.find();
