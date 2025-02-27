@@ -1,7 +1,7 @@
 .second {
   background-image: url('https://www.cobiansrestaurantcypress.com/wp-content/uploads/2021/12/fondo-burger-1920x1280.png');
     background-repeat: no-repeat;
-    background-size: cover; /* Soft light background for brightness */
+    background-size: cover; 
   position: relative;
   min-height: 100vh;
   width: 100%;
