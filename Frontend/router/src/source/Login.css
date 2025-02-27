@@ -56,7 +56,7 @@ img {
 }
 
 .siva:focus {
-  border-color: #1e90ff; /* Bright blue border on focus */
+  border-color: #1e90ff;
   outline: none;
 }
 
