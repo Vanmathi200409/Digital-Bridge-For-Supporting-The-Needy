@@ -14,7 +14,7 @@
 }
 
 .van {
-  color: #1e90ff; /* Bright blue color for the title */
+  color: #1e90ff; 
   font-size: 3em;
    
    margin-bottom: 30px;
@@ -22,19 +22,19 @@
 }
 
 .form1 {
-  background-color: #ffffff; /* Pure white background for the form */
+  background-color: #ffffff; 
   padding: 40px;
   border-radius: 20px;
   width: 100%;
   max-width: 400px;
-  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1); 
   text-align: center;
 }
 
 img {
   max-width: 390px;
   margin-bottom: 25px;
- /* Circular image for a friendly touch */
+
 }
 
 .log1 {
@@ -65,7 +65,7 @@ img {
   padding: 15px;
   font-size: 1.3em;
   color: white;
-  background-color: #1e90ff; /* Bright blue background */
+  background-color: #1e90ff; 
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -73,12 +73,12 @@ img {
 }
 
 .btn2:hover {
-  background-color: #4682b4; /* Darker blue on hover */
-  transform: translateY(-3px); /* Slight raise effect on hover */
+  background-color: #4682b4;
+  transform: translateY(-3px); 
 }
 
 button:disabled {
-  background-color: #b0c4de; /* Disabled button in a soft light blue */
+  background-color: #b0c4de; 
   cursor: not-allowed;
 }
 
